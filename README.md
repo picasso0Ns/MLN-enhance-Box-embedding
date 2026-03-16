@@ -1,16 +1,8 @@
 # MLN-Enhanced Box Embedding for Complex Query Answering
 
-A complete Python implementation of the paper:
-
-> **"MLN-Enhanced Box Embedding for Complex Query Answering in Knowledge Graphs"**  
-> Zhongbin Li, Kun Yue, Jianyu Li, Lixing Yu, Zhiwen Tang  
-> Yunnan University
-
----
 
 ## Overview
 
-This repository implements an **MLN (Markov Logic Network) enhanced box embedding** framework for answering First-Order Logic (FOL) queries over incomplete knowledge graphs. The key idea is to use MLN formula weights — computed via a novel **Variational EM (VEM)** algorithm — to guide four logical operators:
 
 | Operator | Description | Paper Section |
 |---|---|---|
