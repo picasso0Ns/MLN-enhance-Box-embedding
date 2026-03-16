@@ -275,20 +275,6 @@ The Python fallback in `mln_builder.py` (`RuleMiner._mine_python`) is functional
 
 ---
 
-## Citation
-
-If you use this code, please cite the paper:
-
-```bibtex
-@article{li2024mln,
-  title  = {MLN-Enhanced Box Embedding for Complex Query Answering in Knowledge Graphs},
-  author = {Li, Zhongbin and Yue, Kun and Li, Jianyu and Yu, Lixing and Tang, Zhiwen},
-  journal= {IEEE Transactions on ...},
-  year   = {2024}
-}
-```
-
----
 
 ## Acknowledgements
 
@@ -296,4 +282,3 @@ This implementation builds on ideas from:
 - [Query2Box](https://arxiv.org/abs/2002.05969) – box embedding framework
 - [BetaE](https://arxiv.org/abs/2010.11465) – negation in KG embeddings
 - [GMNN](https://arxiv.org/abs/1905.06214) – mean-field GCN for MLN
-- [TransH](https://ojs.aaai.org/index.php/AAAI/article/view/8870) – hyperplane-based KG embedding
